@@ -7,7 +7,7 @@ SET SVNLOOK="C:\Program Files\VisualSVN Server\bin\svnlook.exe"
 REM Set full path to python.exe
 SET PYTHON="C:\Python27\python.exe"
 REM Set full path to post.py
-SET POSTPY="C:\Svn2Mattermost\post.py"
+SET POSTPY="\path\to\Subversion-Integration-for-Mattermost\post.py"
 
 REM *************************************************************
 REM * This sets the arguments supplied by Subversion            *
