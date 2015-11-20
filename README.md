@@ -21,6 +21,7 @@ To run this integration you need:
 - Edit `settings.py` with a text editor of your choice and change the settings to your needs  
 - Edit `post-commit.bat` with a text editor of your choice and change the settings to your needs  
 - Copy `post-commit.bat` to your Subversion repository / repositories hook directory e.g. `copy post-commit.bat c:\repositories\myrepo\hooks\`
+- Commit something to your repository
 - Check the configured Mattermost channel for new messages  
 
 ## Linux Install
