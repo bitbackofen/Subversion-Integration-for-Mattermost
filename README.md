@@ -1,6 +1,6 @@
 # Subversion-Integration-for-Mattermost
 
-This integration service posts RSS feeds into specific Mattermost channels by formatting output from html to text 
+This integration service posts Subversion commits into specific Mattermost channels
 via [Mattermost's incoming webhooks](https://github.com/mattermost/platform/blob/master/doc/integrations/webhooks/Incoming-Webhooks.md).
 
 ## Requirements
@@ -20,5 +20,5 @@ To run this integration you need:
 - Make a copy of `settings.py.sample`: `copy settings.py.sample settings.py`  
 - Edit `settings.py` with a text editor of your choice and change the settings to your needs  
 - Edit `post-commit.bat` with a text editor of your choice and change the settings to your needs  
-- Copy `post-commit.bat` to your Subversion repository / repositories hook directory eg.: `copy post-commit.bat c:\repositories\myrepo\hooks\`
-- Check the configured Mattermost channel for new messages.
+- Copy `post-commit.bat` to your Subversion repository / repositories hook directory e.g. `copy post-commit.bat c:\repositories\myrepo\hooks\`
+- Check the configured Mattermost channel for new messages  
