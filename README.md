@@ -1,4 +1,4 @@
-# Subversion-Integration-for-Mattermost
+# Subversion Integration for Mattermost
 
 This integration service posts Subversion commits into specific Mattermost channels
 via [Mattermost's incoming webhooks](https://github.com/mattermost/platform/blob/master/doc/integrations/webhooks/Incoming-Webhooks.md).
