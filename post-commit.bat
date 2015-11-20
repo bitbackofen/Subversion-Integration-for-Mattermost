@@ -9,7 +9,7 @@ SET SVNLOOK="C:\Program Files\VisualSVN Server\bin\svnlook.exe"
 REM Set path to python.exe
 SET PYTHON="C:\Python27\python.exe"
 REM Set path to post.py
-SET POSTPY="C:\Svn2Mattermost\postneu.py"
+SET POSTPY="C:\Svn2Mattermost\post.py"
 
 REM *************************************************************
 REM * This sets the arguments supplied by Subversion            *
