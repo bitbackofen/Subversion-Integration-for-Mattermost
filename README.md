@@ -10,6 +10,10 @@ To run this integration you need:
 1. A **network connected Subversion server running Python** (Windows / Linux)
 2. A **[Mattermost account](http://www.mattermost.org/)** where [incoming webhooks are enabled](https://github.com/mattermost/platform/blob/master/doc/integrations/webhooks/Incoming-Webhooks.md#enabling-incoming-webhooks)
 
+## Linux Install
+This should work with Linux, too, but I don´t have a Linux machine runnning subversion. 
+The file `post-commit.bat` should easily be converted to bash. Please fork me and get this up and running.
+
 ## Microsoft Windows Install
 - Download Python 2.7 from [Python.org](https://www.python.org/downloads/) and install it.  
 - Download Subversion-Integration-for-Mattermost from [Github](https://github.com/bitbackofen/Subversion-Integration-for-Mattermost/archive/master.zip).  
