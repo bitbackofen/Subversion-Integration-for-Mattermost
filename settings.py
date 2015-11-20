@@ -1,0 +1,16 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+__author__ = 'elpatron@mailbox.org'
+
+
+# Paste the Mattermost webhook URL you created here
+# See also: https://github.com/mattermost/platform/blob/master/doc/integrations/webhooks/Incoming-Webhooks.md
+mattermost_webhook_url = 'https://192.168.0.238/hooks/rtaho5j4tbnfbewha7obqip7kh'
+# Optionally: Set the an URL to icon file
+mattermost_iconurl = 'https://svn.apache.org/repos/asf/subversion/trunk/notes/logo/256-colour/subversion_logo-200x173.png'
+# Set the Mattermost username
+mattermost_username = 'Dev-bot'
+# Set the Mattermost channel
+mattermost_channel = 'dev'
+# Trust only signed SSL certificate?
+verify_cert = False
