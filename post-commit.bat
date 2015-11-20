@@ -2,14 +2,14 @@
 REM *************************************************************
 REM * Edit the following lines to suit your environment         *
 REM *************************************************************
-SET LOGFILE="C:\Svn2Mattermost\log.txt"
-SET AUTHORFILE="C:\Svn2Mattermost\author.txt"
+SET LOGFILE="C:\Svn2Mattermost\log2.txt"
+SET AUTHORFILE="C:\Svn2Mattermost\author2.txt"
 REM Set path to svnlook.exe
 SET SVNLOOK="C:\Program Files\VisualSVN Server\bin\svnlook.exe"
 REM Set path to python.exe
 SET PYTHON="C:\Python27\python.exe"
 REM Set path to post.py
-SET POSTPY="C:\Svn2Mattermost\post.py"
+SET POSTPY="C:\Svn2Mattermost\postneu.py"
 
 REM *************************************************************
 REM * This sets the arguments supplied by Subversion            *
@@ -20,11 +20,9 @@ SET TXN=%2
 REM *************************************************************
 REM * Get Author and comment                                    *
 REM *************************************************************
-"%SVNLOOK%" log -r %TXN% %REPOS% > "%LOGFILE%"
-"%SVNLOOK%" author -r %TXN% %REPOS% > "%AUTHORFILE%"
-set /p COMMENT=<"%LOGFILE%"
-set /p AUTHOR=<"%AUTHORFILE%"
-
+setlocal EnableDelayedExpansion
+for /f "tokens=*" %%i in ('%SVNLOOK% log -r %TXN% %REPOS%') do set COMMENT=%%i
+for /f "tokens=*" %%i in ('%SVNLOOK% author -r %TXN% %REPOS%') do set AUTHOR=%%i
 REM *************************************************************
 REM * Hand it to post.py                                        *
 REM *************************************************************
