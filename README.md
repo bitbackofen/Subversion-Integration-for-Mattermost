@@ -25,5 +25,5 @@ To run this integration you need:
 - Check the configured Mattermost channel for new messages  
 
 ## Linux Install
-This should work with Linux, too, but I don´t have a Linux machine runnning subversion. 
+This should work with Linux, too, but I don´t have a Linux machine running subversion. 
 The file `post-commit.bat` should easily be converted to bash. Please fork me and get this up and running.
