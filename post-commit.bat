@@ -2,8 +2,6 @@
 REM *************************************************************
 REM * Edit the following lines to suit your environment         *
 REM *************************************************************
-SET LOGFILE="C:\Svn2Mattermost\log2.txt"
-SET AUTHORFILE="C:\Svn2Mattermost\author2.txt"
 REM Set path to svnlook.exe
 SET SVNLOOK="C:\Program Files\VisualSVN Server\bin\svnlook.exe"
 REM Set path to python.exe
